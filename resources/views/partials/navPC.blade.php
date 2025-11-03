@@ -7,8 +7,8 @@
             <a href="{{ route(Route::currentRouteName(), 'id') }}" class="@if(App::getLocale() == 'id') text-white @endif">Indonesia</a>
         </div>
     </div>
-    <div class="sm:flex hidden sm:justify-between justify-center items-center  py-2 mt-4">
-        <a href="{{ route('index', [app()->getLocale()]) }}"><img src="{{ asset('assets/logo-alerta.png') }}" alt="Mapbiomas Alerta Indonesia" class="sm:h-12 h-10 select-none"></a>
+    <div class="sm:flex hidden sm:justify-between justify-center items-center  py-2 mt-4 flex-wrap gap-2">
+    <a href="{{ route('index', [app()->getLocale()]) }}"><img src="{{ asset('assets/logo-alerta.png') }}" alt="Mapbiomas Alerta Indonesia" class="sm:h-12 h-full select-none"></a>
     <div class="sm:flex hidden gap-6 items-center select-none">
         <div class="flex-col flex" x-data="{pages:false}">
             <a @click="pages = ! pages" @click.away="pages=false"  class=" text-alerta cursor-pointer inline-flex   items-center " >{{__('about') }}

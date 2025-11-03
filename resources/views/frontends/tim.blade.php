@@ -195,6 +195,15 @@
                 </div>
             </div>
 
+
+            <div class="py-2 px-2 bg-gray-100 border-b border-alerta rounded text-center">
+                <img src="{{ asset('assets/validators/Muhammad Nabil Astaqafi.jpg') }}" alt="Mapbiomas Alerta - M. Nabil Astaqafi" class="rounded sm:h-48 h-60 sm:w-44 w-full object-cover object-center">
+                <a class="text-sm">M. Nabil Astaqafi</a>
+                <div class="flex gap-2 py-3 justify-center">
+                    <a x-data x-tooltip.raw="Alerta - Collection 1" class="h-3 w-3 rounded-full bg-alerta cursor-pointer"></a>
+                </div>
+            </div>
+
             <div class="py-2 px-2 bg-gray-100 border-b border-alerta rounded text-center">
                 <img src="{{ asset('assets/validators/Muhamad Afin Muntazzudien.jpg') }}" alt="Mapbiomas Alerta - M. Afin Muntazzudien" class="rounded sm:h-48 h-60 sm:w-44 w-full object-cover object-center">
                 <a class="text-sm">M. Afin Muntazzudien</a>
