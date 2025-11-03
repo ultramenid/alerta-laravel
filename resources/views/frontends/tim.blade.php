@@ -312,7 +312,7 @@
 
             <div class="py-2 px-2 bg-gray-100 border-b border-alerta rounded text-center">
                 <img src="{{ asset('assets/validators/Wildan Muhammad Hamizan.jpg') }}" alt="Mapbiomas Alerta - Wildan Muhammad Hamizan" class="rounded sm:h-48 h-60 sm:w-44 w-full object-cover object-center">
-                <a class="text-sm">Wildan Muhammad Hamizan</a>
+                <a class="text-[13px]">Wildan Muhammad Hamizan</a>
                 <div class="flex gap-2 py-3 justify-center">
                     <a x-data x-tooltip.raw="Alerta - Collection 1" class="h-3 w-3 rounded-full bg-alerta cursor-pointer"></a>
                 </div>
