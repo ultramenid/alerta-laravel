@@ -15,6 +15,9 @@ class CheckSession
      */
     public function handle(Request $request, Closure $next): Response
     {
+         if(!session('id')){
+            return redirect('/cms/login');
+        }
         return $next($request);
     }
 }
